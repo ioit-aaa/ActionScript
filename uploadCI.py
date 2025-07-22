@@ -30,7 +30,7 @@ def genFileDirectory(path):
 
 def sendMetadataDesc():
     parma = {
-        "chat_id": -1002135305446,
+        "chat_id": -1002709503107,
         "text": os.environ["COMMIT_MESSAGE"],
     }
     print(parma)
