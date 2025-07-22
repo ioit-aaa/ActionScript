@@ -44,7 +44,7 @@ def sendApkToChat(path):
 
     parma = {
         "chat_id": os.environ.get("CHAT_ID"),
-        "caption": "Congratulations! New Nnngram build out.\n\nVersion: `"
+        "caption": "Congratulations! New Ligram build out.\n\nVersion: `"
         + os.environ.get("VERSION_NAME", "")
         + "("
         + os.environ.get("VERSION_CODE", "")
@@ -66,7 +66,7 @@ def sendAPKs(path):
 
     parma = {
         "chat_id": -1002309499805,
-        "caption": "Congratulations! New Nnngram build out.\n\nVersion: `"
+        "caption": "Congratulations! New Ligram build out.\n\nVersion: `"
         + os.environ.get("VERSION_NAME", "")
         + "("
         + os.environ.get("VERSION_CODE", "")
