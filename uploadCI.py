@@ -65,7 +65,7 @@ def sendAPKs(path):
     file = genFileDirectory(path)
 
     parma = {
-        "chat_id": -1001848519901,
+        "chat_id": -1002309499805,
         "caption": "Congratulations! New Nnngram build out.\n\nVersion: `"
         + os.environ.get("VERSION_NAME", "")
         + "("
@@ -86,7 +86,7 @@ def sendAPKs(path):
 
 def sendMetadata(changesID, startID):
     parma = {
-        "chat_id": -1002135305446,
+        "chat_id": -1002709503107,
         "text": str(os.getenv("VERSION_NAME"))
         + ","
         + str(os.getenv("VERSION_CODE"))
